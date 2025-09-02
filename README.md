@@ -4,6 +4,10 @@ This project implements a **signature verification system** using a **Siamese ne
 The system compares two signatures and determines whether they belong to the same person (**genuine**) or not (**forged**).
 
 ---
+[Preview](1.png)
+---
+[Preview](2.png)
+---
 
 ## 🚀 Features
 - Pre-trained Siamese model for signature verification (`models` or `.pt`).
