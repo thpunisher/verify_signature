@@ -6,7 +6,7 @@ The system compares two signatures and determines whether they belong to the sam
 ---
 
 ## 🚀 Features
-- Pre-trained Siamese model for signature verification (`model.keras` or `.pt`).
+- Pre-trained Siamese model for signature verification (`models` or `.pt`).
 - REST API built with **FastAPI** for easy integration.
 - GUI built with **Tkinter** for desktop usage.
 - Supports real-time signature verification.
@@ -16,10 +16,9 @@ The system compares two signatures and determines whether they belong to the sam
 
 ## 📂 Project Structure
 ```
-├── model.keras             # Trained Siamese model (TensorFlow/Keras)
-├── app.py                  # FastAPI server (signature verification endpoint)
-├── gui.py                  # Tkinter-based GUI application
-├── utils.py                # Preprocessing and helper functions
+├── models            # Trained Siamese model (TensorFlow/Keras)
+├── main.py                  # FastAPI server (signature verification endpoint)
+├── app.py                  # Tkinter-based GUI application
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
 ```
@@ -30,8 +29,8 @@ The system compares two signatures and determines whether they belong to the sam
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/signature-verification.git
-cd signature-verification
+git clone https://github.com/thpunisher/verify_signature.git
+cd verify_signature
 ```
 
 ### 2. Create virtual environment (recommended)
@@ -52,7 +51,7 @@ pip install -r requirements.txt
 You can either:
 1. Train the Siamese model using the Kaggle notebook:  
    [Signature Verification Siamese](https://www.kaggle.com/code/samhithary/signature-verification-siamese)  
-2. Or download the pre-trained model (`model.keras`) and place it in the project root.
+2. Or download the pre-trained model (`models`) and place it in the project root.
 
 ---
 
@@ -114,5 +113,5 @@ python gui.py
 ---
 
 ## 👨‍💻 Author
-Developed by [Your Name] 🚀  
+Developed by [Thpunisher] 🚀  
 Feel free to contribute or fork the project!
